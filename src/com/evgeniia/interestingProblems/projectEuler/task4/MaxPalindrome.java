@@ -28,7 +28,6 @@ public class MaxPalindrome {
         if (minNumber < 0 || maxNumber < 0 || (minNumber > maxNumber)) {
             return -1;
         }
-
         long maxPalindrome = -1;
         for (int i = maxNumber; i >= minNumber; i--) {
             for (int j = i; j >= minNumber; j--) {
