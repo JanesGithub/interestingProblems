@@ -1,4 +1,4 @@
-package com.evgeniia.interestingProblems.projectEuler.task5;
+package com.evgeniia.interestingProblems.projectEuler.task6;
 
 import org.junit.Test;
 

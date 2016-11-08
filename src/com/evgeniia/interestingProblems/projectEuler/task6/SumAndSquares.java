@@ -1,4 +1,4 @@
-package com.evgeniia.interestingProblems.projectEuler.task5;
+package com.evgeniia.interestingProblems.projectEuler.task6;
 
 /**
  * Created by evgeniia on 11/6/16.
@@ -17,10 +17,12 @@ public class SumAndSquares {
     }
 
     public static long countDifference(int n) {
+
         return countSquareOfSum(n) - countSumOfSquares(n);
     }
 
     public static void main(String[] args) {
+
         System.out.println(countDifference(100));
     }
 
