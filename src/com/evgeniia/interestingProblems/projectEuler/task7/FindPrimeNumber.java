@@ -33,6 +33,7 @@ public class FindPrimeNumber {
      }
 
      public static void main(String[] args) {
+
          System.out.println(getPrimeNumber(10001));
      }
 }
